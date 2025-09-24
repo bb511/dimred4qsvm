@@ -1,0 +1,2 @@
+python prepare_mlready_data.py --sig_file ../../data/sigSL.h5 --bkg_file ../../data/bkgSL.h5 --outdir ../../data/ae_input 
+python normalise_mlready_data.py --data_sig ../../data/ae_input/x_data_sig.npy --data_bkg ../../data/ae_input/x_data_bkg.npy --norm_name minmax --maxdata 7.20e+05 --valid_percent 0.1
